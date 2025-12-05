@@ -1,22 +1,14 @@
-# Welcome to your Lovable project
+# Welcome to my Airline Management System
 
-## Project info
-
-**URL**: https://lovable.dev/projects/bb765ec3-a73c-4ea6-8639-d4af2619d941
 
 ## How can I edit this code?
 
 There are several ways of editing your application.
-
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/bb765ec3-a73c-4ea6-8639-d4af2619d941) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
+.
 
 **Use your preferred IDE**
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in VS Code.
 
 The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
@@ -24,10 +16,10 @@ Follow these steps:
 
 ```sh
 # Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+git clone <https://github.com/Amank002/airline-management-system>
 
 # Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+cd <airline-management-system>
 
 # Step 3: Install the necessary dependencies.
 npm i
@@ -62,12 +54,35 @@ This project is built with:
 
 ## How can I deploy this project?
 
-Simply open [Lovable](https://lovable.dev/projects/bb765ec3-a73c-4ea6-8639-d4af2619d941) and click on Share -> Publish.
+Simply open [Vercel](https://airline-management-system-gamma.vercel.app/) and click on Share -> Publish.
 
-## Can I connect a custom domain to my Lovable project?
+## Can I connect a custom domain to VS Code project?
 
 Yes, you can!
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+What you can do is:
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Host your VS Code project somewhere (GitHub Pages, Netlify, Vercel, traditional hosting, etc.).
+
+Buy a domain (e.g., from Namecheap, GoDaddy, Google Domains…).
+
+Point the domain’s DNS records to your hosting provider.
+
+Tell the hosting provider to use that domain for your site.
+
+Example with GitHub Pages (static website):
+
+Push your project to GitHub.
+
+In repo → Settings → Pages → choose branch (main), folder (/root or /docs) → Save.
+
+In Pages → Custom domain add yourdomain.com.
+
+At your domain registrar, create a CNAME record:
+
+Name: www
+
+Value: yourusername.github.io
+
+(Optional) Add A records if you want root domain (yourdomain.com) to work too, following GitHub’s docs.
+
